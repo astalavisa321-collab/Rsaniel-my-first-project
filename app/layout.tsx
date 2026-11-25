@@ -28,8 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <Link href="/">Home</Link>
       <Link href="/about">About</Link>
-      <Link href="/projects">Projects</Link>
-  {children}
+<Link href="/projects">Projects</Link>  {children}
         
       </body>
     </html>
